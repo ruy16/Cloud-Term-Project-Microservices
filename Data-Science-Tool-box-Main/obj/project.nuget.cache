@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Hu8J3JF/Scyn07e3CBUruJpDjUVZGDm1ywh/ZnJYpAOF9G2Ek24nBgqpnySHNutNFSKpKXiFRzIgtsbD+aJ4sQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\YOUYANG ZHOU\\Desktop\\Cloud-computing\\Term-Project\\Data-Science-Tool-box-Main\\Data-Science-Tool-box-Main.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\YOUYANG ZHOU\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.9\\microsoft.visualstudio.azure.containers.tools.targets.1.10.9.nupkg.sha512"
+  ],
+  "logs": []
+}
