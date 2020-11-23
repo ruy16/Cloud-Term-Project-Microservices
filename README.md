@@ -43,7 +43,7 @@ password: Cloud-computing123
 Click SAS Studio on the left
 #############################################################################
 Tableau Login:
-username: ruy16@pitt.edu
+username: yryoliver@gmail.com
 password: Cloud-computing123
 ##############################################################################
 Git:
