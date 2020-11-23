@@ -1,5 +1,6 @@
 CS1660 Final project Option 1 Microservices- Author Runyuan Yan-"ruy16
 @pitt.edu"
+Link to the video: https://pitt-my.sharepoint.com/:v:/g/personal/ruy16_pitt_edu/EZpi4iPM_i9KlAHHQItwuK8BgH1VQ_C5ps4TWhW2XSWFbg?e=T7AoYa
 Before you start,
 You need to set at least 6G of memory, 3cpus,and 30 GB of free disk memory for your docker in order for everything to run smoothly as possible!!!!!!!!!!!!
 You can go to resources to tune up the settings, this is important considering the amount of services needed to run
