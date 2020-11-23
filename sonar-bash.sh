@@ -1,0 +1,1 @@
+export PATH="./sonar-scanner-4.5.0.2216/bin:$PATH"

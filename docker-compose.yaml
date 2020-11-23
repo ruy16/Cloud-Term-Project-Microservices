@@ -1,0 +1,97 @@
+version: '3.8'
+services:
+
+  toolbox-front:
+    image: oliver33221/datasciencetoolboxmain:latest
+    container_name: toolbox-front
+    ports:
+     - "80:80"
+
+  toolbox-rstudio-service:
+    image: rocker/rstudio
+    container_name: toolbox-rstudio
+    environment:
+      DISABLE_AUTH: "true"
+    ports:
+     - "8787:8787"
+
+  toolbox-orange-service:
+    image: acopar/orange-docker
+    container_name: toolbox-orange
+    ports:
+      - "6902:6901"
+      - "5902:5901"
+  
+  toolbox-markdown-dillinger-service:
+    image: ghcr.io/linuxserver/dillinger
+    container_name: toolbox-markdown
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+
+  toolbox-jupyter-service:
+    image: oliver33221/base-note-new:latest
+    container_name: toolbox-jupyter
+    ports:
+      - "8888:8888"
+
+  toolbox-vscode-service:
+    image: ghcr.io/linuxserver/code-server
+    container_name: toolbox-code-server
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+      - PROXY_DOMAIN=code-server.my.domain #optional
+    volumes:
+      - /path/to/appdata/config:/config
+    ports:
+      - 8443:8443
+    restart: unless-stopped
+
+  toolbox-git-service:
+    image: theasp/novnc
+    ports: 
+      - "8008:8080"
+    container_name: toolbox-git
+
+  toolbox-hadoop-service:
+    image: oliver33221/hadoopp
+    ports: 
+      - 5901:5901
+      - 6901:6901
+      - 8042
+      - 8088
+      - 19888
+      - 50070
+      - 50075
+    container_name: toolbox-hadoop
+
+  toolbox-spark-service:
+    image: dimajix/jupyter-spark
+    ports:
+      - 8889:8888
+    container_name: toolbox-spark
+
+  toolbox-tensorflow-service:
+    image: oliver33221/tensorflownvc
+    ports:
+      - 8083:8080
+    container_name: toolbox-tensorflow
+
+  toolbox-sonarqube-service:
+    image: zaquestion/sonarqube-python
+    ports:
+      - 9000:9000
+    #environment:
+      #- SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true
+    container_name: toolbox-sonar
+
+
+
+
+

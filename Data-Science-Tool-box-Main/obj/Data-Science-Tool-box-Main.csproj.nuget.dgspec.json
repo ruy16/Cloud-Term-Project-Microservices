@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\YOUYANG ZHOU\\Desktop\\Cloud-computing\\Term-Project\\Data-Science-Tool-box-Main\\Data-Science-Tool-box-Main.csproj": {}
+    "C:\\Users\\YOUYANG ZHOU\\Desktop\\Cloud-computing\\Term-Project\\Cloud-Term-Project-Microservices\\Data-Science-Tool-box-Main\\Data-Science-Tool-box-Main.csproj": {}
   },
   "projects": {
-    "C:\\Users\\YOUYANG ZHOU\\Desktop\\Cloud-computing\\Term-Project\\Data-Science-Tool-box-Main\\Data-Science-Tool-box-Main.csproj": {
+    "C:\\Users\\YOUYANG ZHOU\\Desktop\\Cloud-computing\\Term-Project\\Cloud-Term-Project-Microservices\\Data-Science-Tool-box-Main\\Data-Science-Tool-box-Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\YOUYANG ZHOU\\Desktop\\Cloud-computing\\Term-Project\\Data-Science-Tool-box-Main\\Data-Science-Tool-box-Main.csproj",
+        "projectUniqueName": "C:\\Users\\YOUYANG ZHOU\\Desktop\\Cloud-computing\\Term-Project\\Cloud-Term-Project-Microservices\\Data-Science-Tool-box-Main\\Data-Science-Tool-box-Main.csproj",
         "projectName": "Data-Science-Tool-box-Main",
-        "projectPath": "C:\\Users\\YOUYANG ZHOU\\Desktop\\Cloud-computing\\Term-Project\\Data-Science-Tool-box-Main\\Data-Science-Tool-box-Main.csproj",
+        "projectPath": "C:\\Users\\YOUYANG ZHOU\\Desktop\\Cloud-computing\\Term-Project\\Cloud-Term-Project-Microservices\\Data-Science-Tool-box-Main\\Data-Science-Tool-box-Main.csproj",
         "packagesPath": "C:\\Users\\YOUYANG ZHOU\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\YOUYANG ZHOU\\Desktop\\Cloud-computing\\Term-Project\\Data-Science-Tool-box-Main\\obj\\",
+        "outputPath": "C:\\Users\\YOUYANG ZHOU\\Desktop\\Cloud-computing\\Term-Project\\Cloud-Term-Project-Microservices\\Data-Science-Tool-box-Main\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

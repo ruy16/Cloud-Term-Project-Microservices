@@ -1,0 +1,1 @@
+ setx path "%PATH%;${PWD}/sonar-scanner-4.5.0.2216/bin"
